@@ -1,0 +1,29 @@
+.home_wrapper{
+    margin: 25px 150px;
+}
+.home_post_main{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 15px;
+}
+.textarea_main{
+    position: relative;
+}
+.textarea_main svg{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 25px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.textarea_main svg:hover{
+    opacity: 1;
+}
+.emoji_box{
+    position: absolute;
+    right: 0;
+    top: -160px;
+    transform: translateX(110%);
+}

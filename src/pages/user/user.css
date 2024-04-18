@@ -1,0 +1,83 @@
+.suggestuser_wrapper{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.suggest_user_item{
+    display: flex;
+    align-items: center;
+    background-color: #ebe8e3db;
+    padding: 15px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    width: 49%;
+    justify-content: space-between;
+}
+.suggest_user{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.img_holder{
+    width: 70px;
+    height: 70px;
+    background-color: #086FA4;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+    
+}
+.img_holder h3{
+    color: #fff;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.img_holder img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.suggest_user_info h2{
+    font-size: 18px;
+    color: #000;
+}
+.suggest_user_info p{
+    margin-top: 5px;
+}
+.add_btn{
+    cursor: pointer;
+    padding: 6px 12px;
+    color: #fff;
+    background-color: #086FA4;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.add_btn.friend{
+    background-color: #09c1d3;
+}
+.f_req_btn_wrapper{
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+}
+.add_btn.delete{
+    background-color: rgb(245, 47, 47);
+}
+.suggest_user_title{
+    padding: 30px 0;
+    font-size: 30px;
+}

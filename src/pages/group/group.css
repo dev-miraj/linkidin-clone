@@ -1,0 +1,126 @@
+.group_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.group_heading a{
+    background-color: rgba(8, 112, 164, 0.9);
+    text-transform: capitalize;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.create_group_body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin: 20px 0;
+}
+.create_group_body input{
+    outline: none;
+    padding: 13px 15px;
+    font-size: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.group_nav {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 25px;
+}
+.group_nav a{
+    padding: 8px 12px;
+    background-color: #e0e1e2cf;
+    color: #000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.group_nav .active{
+    background-color: #086FA4;
+    color: #fff;
+}
+.add_btn.group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: unset;
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    border-radius: 50%;
+}
+.tabs_wrapper .MuiTabs-flexContainer{
+    justify-content: center;
+}
+.group_pending_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.groupmodal_name{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+    font-size: 30px;
+}
+.member_actions {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+}
+.group_pending_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ebe8e3db;
+    border-radius: 5px;
+    padding: 10px;
+}
+.group_pending_main .member_info{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.member_img_holder{
+    width: 50px;
+    height: 50px;
+    background-color: #086FA4;
+    border-radius: 50%;
+}
+.member_actions button{
+    background-color: #086FA4;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.member_actions .delete{
+    background-color: red;
+}
+.member_details_holder h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+.member_details_holder p{
+    font-size: 16px;
+    margin-top: 7px;
+}
+.add_btn.group_leave{
+    background-color: red;
+}

@@ -1,0 +1,434 @@
+.container{
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+}
+.cover_photo{
+    width: 100%;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+    -webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+    overflow: hidden;
+    position: relative;
+}
+.cover_photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cover_photo button{
+    position: absolute;
+    z-index: 55;
+    right: 20px;
+    bottom: 20px;
+    border: 0;
+    background-color: #fff;
+    color: #000;
+    text-align: baseline;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    line-height: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.cover_photo button svg{
+    margin-right: 5px;
+}
+.cover_photo button:hover{
+    background-color: #edeaea;
+}
+.profile_photo_wrapper{
+    display: flex;
+    align-items: center;
+    margin: 0 55px 30px 55px;
+    justify-content: space-between;
+}
+.profile_dashboard{
+    background-color: rgba(8, 112, 164, 0.9);
+    text-transform: capitalize;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.profile_dashboard:hover{
+    background-color: #086FA4;
+}
+.profile_photo_holder{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 4px solid rgba(82, 61, 61, 0.668);
+    overflow: hidden;
+    margin-top: -30px;
+    position: relative;
+    z-index: 555;
+}
+.profile_photo_holder h3{
+    width: 100%;
+    background: #086FA4;
+    height: 100%;
+    font-size: 120px;
+    color: #fff;
+    text-align: center;
+    line-height: 200px;
+    text-transform: uppercase;
+}
+.profile_photo_holder img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.photo_and_name_wrapper{
+    display: flex;
+    align-items: center;
+}
+.profile_img_icon{
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding-top: 20px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    cursor: pointer;
+}
+.profile_img_icon svg{
+    font-size: 30px;
+    color: #fff;
+    line-height: 60px;
+}
+.profile_photo_holder:hover .profile_img_icon{
+    bottom: 0;
+}
+.pro_edit_preview{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.pro_edit_preview img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profile_owner_name{
+    margin-left: 30px;
+}
+.profile_owner_name h2{
+    font-size: 32px;
+    text-transform: capitalize;
+    color: #000;
+    padding-bottom: 15px;
+}
+.reg_loader{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.63);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+.profile_body{
+    padding-top: 30px;
+    border-top: 1px solid #cec2c2;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 55px;
+}
+.profile_intro{
+    width: 37%;
+    background-color: rgba(238, 234, 234, 0.862);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 20px;
+}
+.bio_box{
+    text-align: center;
+    padding: 15px 0;
+}
+.bio_btn{
+    width: 100%;
+    padding: 10px;
+    background-color: #e2dede;
+    border: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.bio_btn:hover{
+    background-color: #cfcccc;
+}
+.bio_box p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #000;
+}
+.intro_input{
+    width: 100%;
+    height: 80px;
+    outline: 1px solid #086FA4;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    padding: 10px;
+}
+.intro_cancel_btn{
+    padding: 8px 10px;
+    border: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #e2dede;
+    cursor: pointer;
+}
+.intro_cancel_btn:hover{
+    background-color: #cfcccc;
+}
+.intro_cancel_btn.save{
+    background-color: #086FA4;
+    color: #fff;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+.intro_cancel_btn.save_visible{
+    opacity: 1;
+    background-color: #086FA4;
+    color: #fff;
+}
+.character_count{
+    text-align: right;
+    font-size: 15px !important;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.intro_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.bio_public{
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+}
+.intro_btn_wrapper{
+    display: flex;
+    gap: 8px;
+}
+.post_main{
+    width: 60%;
+}
+.profile_post_wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 15px;
+    margin-top: 15px;
+}
+.profile_post_item{
+    background-color: #dcdad780;
+    width: 100%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 20px;
+}
+.cropper_btn{
+    padding: 6px 20px;
+    background-color: #086FA4;
+    color: #fff;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    border: 2px solid #086FA4;
+    cursor: pointer;
+}
+.cropper_btn:hover{
+    background-color: transparent;
+    color: #086FA4;
+    border: 2px solid #086FA4;
+}
+.profile_post_item p{
+    font-size: 20px;
+    color: #000;
+    margin-top: 20px;
+    line-height: 28px;
+}
+.post_head .post_owner_img{
+    width: 40px;
+    height: 40px;
+    background-color: #086FA4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.post_head .post_owner_img h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.post_head{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+.post_date{
+    font-size: 14px;
+}
+.post_actions_count{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #868383;
+    padding: 10px 0 5px 0;
+}
+.post_actions_btn{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #868383;
+}
+.like_btn{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 0;
+    cursor: pointer;
+    flex-basis: 30%;
+    margin: 5px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all linear 0.1s;
+    -webkit-transition: all linear 0.1s;
+    -moz-transition: all linear 0.1s;
+    -ms-transition: all linear 0.1s;
+    -o-transition: all linear 0.1s;
+}
+.like_btn:hover{
+    background-color: #cfcccc;
+}
+.like_btn svg{
+    font-size: 22px;
+}
+.like_btn.liked{
+    color: #086FA4;
+}
+.profile_post_actions{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(209, 206, 206);
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.profile_post_actions svg{
+    color: rgb(92, 90, 90);
+}
+.post_action_item{
+    padding: 7px 15px;
+    cursor: pointer;
+}
+.post_action_item:hover{
+    background-color: #e6e3e3;
+}
+.see_more_btn{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: #086FA4;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    padding: 0;
+    font-weight: 500;
+    cursor: pointer;
+}
+.see_more_btn:hover{
+    border-bottom: 1px solid #086FA4;
+}
+.creator_name a{
+    color: #000;
+    display: block;
+    padding-bottom: 2px;
+}
